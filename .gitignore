@@ -1,0 +1,26 @@
+# 後端
+office-buy-api/.env
+office-buy-api/node_modules/
+office-buy-api/dist/
+
+# 前端
+office-buy-client/node_modules/
+office-buy-client/dist/
+
+# 系統檔
+.DS_Store
+Thumbs.db
+
+# 編輯器
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Log
+*.log
+npm-debug.log*
+
+# 暫存
+*.tmp
+*.temp
