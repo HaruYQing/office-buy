@@ -10,8 +10,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "sourceMap": true
+    "sourceMap": true,
   },
+  "files": ["src/types/session.d.ts"],
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
