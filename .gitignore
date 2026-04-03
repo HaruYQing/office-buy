@@ -6,6 +6,7 @@ office-buy-api/dist/
 # Frontend
 office-buy-client/node_modules/
 office-buy-client/dist/
+office-buy-client/src/generated/prisma
 
 # System
 .DS_Store

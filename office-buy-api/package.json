@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "The backend of Office Buy project",
   "main": "index.js",
-"scripts": {
-  "dev": "nodemon --exec ts-node src/index.ts",
-  "build": "tsc",
-  "start": "node dist/index.js"
-},
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
   "author": "YunChing Fang",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.22.1"
+    "@prisma/client": "^5.22.0",
+    "express": "^4.22.1",
+    "prisma": "^5.22.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.25",
