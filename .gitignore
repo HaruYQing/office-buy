@@ -1,17 +1,17 @@
-# 後端
+# Backend
 office-buy-api/.env
 office-buy-api/node_modules/
 office-buy-api/dist/
 
-# 前端
+# Frontend
 office-buy-client/node_modules/
 office-buy-client/dist/
 
-# 系統檔
+# System
 .DS_Store
 Thumbs.db
 
-# 編輯器
+# IDE
 .vscode/
 .idea/
 *.suo
@@ -21,6 +21,9 @@ Thumbs.db
 *.log
 npm-debug.log*
 
-# 暫存
+# Temp
 *.tmp
 *.temp
+
+# Vite
+.vite/
