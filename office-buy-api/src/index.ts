@@ -1,6 +1,7 @@
 import express from "express";
 import session from "express-session";
 import authRoutes from "./routes/auth.routes";
+import eventRoutes from "./routes/event.routes";
 
 const app = express();
 const PORT = 3000;
@@ -20,6 +21,7 @@ app.use(
 );
 
 app.use("/api/auth", authRoutes);
+app.use("/api/events", eventRoutes);
 
 app.get("/", (req, res) => {
   res.json({ message: "office-buy-api is running" });
