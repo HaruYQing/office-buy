@@ -450,6 +450,19 @@ office-buy-api/
 
 ---
 
+#### GET /api/events/:id/orders/:oid
+
+取得單一訂單詳細資訊。需登入，限發起人或管理員。
+
+**Response 200** 回傳訂單含參加者資訊與品項明細。
+
+**Errors**
+
+- `403` Forbidden
+- `404` Event or order not found
+
+---
+
 #### POST /api/events/:id/orders
 
 建立訂單。需登入，活動須為 OPEN 狀態。
